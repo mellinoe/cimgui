@@ -118,12 +118,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(const char* text,const char* text_end=((void *)0))",
+      "argsoriginal": "(const char* text,const char* text_end=((void*)0))",
       "call_args": "(text,text_end)",
       "cimguiname": "GlyphRangesBuilder_AddText",
       "comment": "",
       "defaults": {
-        "text_end": "((void *)0)"
+        "text_end": "((void*)0)"
       },
       "funcname": "AddText",
       "ret": "void",
@@ -1368,12 +1368,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(const ImVec2& pos,ImU32 col,const char* text_begin,const char* text_end=((void *)0))",
+      "argsoriginal": "(const ImVec2& pos,ImU32 col,const char* text_begin,const char* text_end=((void*)0))",
       "call_args": "(pos,col,text_begin,text_end)",
       "cimguiname": "ImDrawList_AddText",
       "comment": "",
       "defaults": {
-        "text_end": "((void *)0)"
+        "text_end": "((void*)0)"
       },
       "funcname": "AddText",
       "ov_cimguiname": "ImDrawList_AddText",
@@ -1421,13 +1421,13 @@
           "type": "const ImVec4*"
         }
       ],
-      "argsoriginal": "(const ImFont* font,float font_size,const ImVec2& pos,ImU32 col,const char* text_begin,const char* text_end=((void *)0),float wrap_width=0.0f,const ImVec4* cpu_fine_clip_rect=((void *)0))",
+      "argsoriginal": "(const ImFont* font,float font_size,const ImVec2& pos,ImU32 col,const char* text_begin,const char* text_end=((void*)0),float wrap_width=0.0f,const ImVec4* cpu_fine_clip_rect=((void*)0))",
       "call_args": "(font,font_size,pos,col,text_begin,text_end,wrap_width,cpu_fine_clip_rect)",
       "cimguiname": "ImDrawList_AddText",
       "comment": "",
       "defaults": {
-        "cpu_fine_clip_rect": "((void *)0)",
-        "text_end": "((void *)0)",
+        "cpu_fine_clip_rect": "((void*)0)",
+        "text_end": "((void*)0)",
         "wrap_width": "0.0f"
       },
       "funcname": "AddText",
@@ -2610,12 +2610,12 @@
           "type": "const ImFontConfig*"
         }
       ],
-      "argsoriginal": "(const ImFontConfig* font_cfg=((void *)0))",
+      "argsoriginal": "(const ImFontConfig* font_cfg=((void*)0))",
       "call_args": "(font_cfg)",
       "cimguiname": "ImFontAtlas_AddFontDefault",
       "comment": "",
       "defaults": {
-        "font_cfg": "((void *)0)"
+        "font_cfg": "((void*)0)"
       },
       "funcname": "AddFontDefault",
       "ret": "ImFont*",
@@ -2648,13 +2648,13 @@
           "type": "const ImWchar*"
         }
       ],
-      "argsoriginal": "(const char* filename,float size_pixels,const ImFontConfig* font_cfg=((void *)0),const ImWchar* glyph_ranges=((void *)0))",
+      "argsoriginal": "(const char* filename,float size_pixels,const ImFontConfig* font_cfg=((void*)0),const ImWchar* glyph_ranges=((void*)0))",
       "call_args": "(filename,size_pixels,font_cfg,glyph_ranges)",
       "cimguiname": "ImFontAtlas_AddFontFromFileTTF",
       "comment": "",
       "defaults": {
-        "font_cfg": "((void *)0)",
-        "glyph_ranges": "((void *)0)"
+        "font_cfg": "((void*)0)",
+        "glyph_ranges": "((void*)0)"
       },
       "funcname": "AddFontFromFileTTF",
       "ret": "ImFont*",
@@ -2687,13 +2687,13 @@
           "type": "const ImWchar*"
         }
       ],
-      "argsoriginal": "(const char* compressed_font_data_base85,float size_pixels,const ImFontConfig* font_cfg=((void *)0),const ImWchar* glyph_ranges=((void *)0))",
+      "argsoriginal": "(const char* compressed_font_data_base85,float size_pixels,const ImFontConfig* font_cfg=((void*)0),const ImWchar* glyph_ranges=((void*)0))",
       "call_args": "(compressed_font_data_base85,size_pixels,font_cfg,glyph_ranges)",
       "cimguiname": "ImFontAtlas_AddFontFromMemoryCompressedBase85TTF",
       "comment": "",
       "defaults": {
-        "font_cfg": "((void *)0)",
-        "glyph_ranges": "((void *)0)"
+        "font_cfg": "((void*)0)",
+        "glyph_ranges": "((void*)0)"
       },
       "funcname": "AddFontFromMemoryCompressedBase85TTF",
       "ret": "ImFont*",
@@ -2730,13 +2730,13 @@
           "type": "const ImWchar*"
         }
       ],
-      "argsoriginal": "(const void* compressed_font_data,int compressed_font_size,float size_pixels,const ImFontConfig* font_cfg=((void *)0),const ImWchar* glyph_ranges=((void *)0))",
+      "argsoriginal": "(const void* compressed_font_data,int compressed_font_size,float size_pixels,const ImFontConfig* font_cfg=((void*)0),const ImWchar* glyph_ranges=((void*)0))",
       "call_args": "(compressed_font_data,compressed_font_size,size_pixels,font_cfg,glyph_ranges)",
       "cimguiname": "ImFontAtlas_AddFontFromMemoryCompressedTTF",
       "comment": "",
       "defaults": {
-        "font_cfg": "((void *)0)",
-        "glyph_ranges": "((void *)0)"
+        "font_cfg": "((void*)0)",
+        "glyph_ranges": "((void*)0)"
       },
       "funcname": "AddFontFromMemoryCompressedTTF",
       "ret": "ImFont*",
@@ -2773,13 +2773,13 @@
           "type": "const ImWchar*"
         }
       ],
-      "argsoriginal": "(void* font_data,int font_size,float size_pixels,const ImFontConfig* font_cfg=((void *)0),const ImWchar* glyph_ranges=((void *)0))",
+      "argsoriginal": "(void* font_data,int font_size,float size_pixels,const ImFontConfig* font_cfg=((void*)0),const ImWchar* glyph_ranges=((void*)0))",
       "call_args": "(font_data,font_size,size_pixels,font_cfg,glyph_ranges)",
       "cimguiname": "ImFontAtlas_AddFontFromMemoryTTF",
       "comment": "",
       "defaults": {
-        "font_cfg": "((void *)0)",
-        "glyph_ranges": "((void *)0)"
+        "font_cfg": "((void*)0)",
+        "glyph_ranges": "((void*)0)"
       },
       "funcname": "AddFontFromMemoryTTF",
       "ret": "ImFont*",
@@ -3148,12 +3148,12 @@
           "type": "int*"
         }
       ],
-      "argsoriginal": "(unsigned char** out_pixels,int* out_width,int* out_height,int* out_bytes_per_pixel=((void *)0))",
+      "argsoriginal": "(unsigned char** out_pixels,int* out_width,int* out_height,int* out_bytes_per_pixel=((void*)0))",
       "call_args": "(out_pixels,out_width,out_height,out_bytes_per_pixel)",
       "cimguiname": "ImFontAtlas_GetTexDataAsAlpha8",
       "comment": "",
       "defaults": {
-        "out_bytes_per_pixel": "((void *)0)"
+        "out_bytes_per_pixel": "((void*)0)"
       },
       "funcname": "GetTexDataAsAlpha8",
       "ret": "void",
@@ -3186,12 +3186,12 @@
           "type": "int*"
         }
       ],
-      "argsoriginal": "(unsigned char** out_pixels,int* out_width,int* out_height,int* out_bytes_per_pixel=((void *)0))",
+      "argsoriginal": "(unsigned char** out_pixels,int* out_width,int* out_height,int* out_bytes_per_pixel=((void*)0))",
       "call_args": "(out_pixels,out_width,out_height,out_bytes_per_pixel)",
       "cimguiname": "ImFontAtlas_GetTexDataAsRGBA32",
       "comment": "",
       "defaults": {
-        "out_bytes_per_pixel": "((void *)0)"
+        "out_bytes_per_pixel": "((void*)0)"
       },
       "funcname": "GetTexDataAsRGBA32",
       "ret": "void",
@@ -3458,13 +3458,13 @@
           "type": "const char**"
         }
       ],
-      "argsoriginal": "(float size,float max_width,float wrap_width,const char* text_begin,const char* text_end=((void *)0),const char** remaining=((void *)0))",
+      "argsoriginal": "(float size,float max_width,float wrap_width,const char* text_begin,const char* text_end=((void*)0),const char** remaining=((void*)0))",
       "call_args": "(size,max_width,wrap_width,text_begin,text_end,remaining)",
       "cimguiname": "ImFont_CalcTextSizeA",
       "comment": "",
       "defaults": {
-        "remaining": "((void *)0)",
-        "text_end": "((void *)0)"
+        "remaining": "((void*)0)",
+        "text_end": "((void*)0)"
       },
       "funcname": "CalcTextSizeA",
       "ret": "ImVec2",
@@ -3507,13 +3507,13 @@
           "type": "const char**"
         }
       ],
-      "argsoriginal": "(float size,float max_width,float wrap_width,const char* text_begin,const char* text_end=((void *)0),const char** remaining=((void *)0))",
+      "argsoriginal": "(float size,float max_width,float wrap_width,const char* text_begin,const char* text_end=((void*)0),const char** remaining=((void*)0))",
       "call_args": "(size,max_width,wrap_width,text_begin,text_end,remaining)",
       "cimguiname": "ImFont_CalcTextSizeA",
       "comment": "",
       "defaults": {
-        "remaining": "((void *)0)",
-        "text_end": "((void *)0)"
+        "remaining": "((void*)0)",
+        "text_end": "((void*)0)"
       },
       "funcname": "CalcTextSizeA",
       "nonUDT": 1,
@@ -3554,13 +3554,13 @@
           "type": "const char**"
         }
       ],
-      "argsoriginal": "(float size,float max_width,float wrap_width,const char* text_begin,const char* text_end=((void *)0),const char** remaining=((void *)0))",
+      "argsoriginal": "(float size,float max_width,float wrap_width,const char* text_begin,const char* text_end=((void*)0),const char** remaining=((void*)0))",
       "call_args": "(size,max_width,wrap_width,text_begin,text_end,remaining)",
       "cimguiname": "ImFont_CalcTextSizeA",
       "comment": "",
       "defaults": {
-        "remaining": "((void *)0)",
-        "text_end": "((void *)0)"
+        "remaining": "((void*)0)",
+        "text_end": "((void*)0)"
       },
       "funcname": "CalcTextSizeA",
       "nonUDT": 2,
@@ -3920,6 +3920,66 @@
       "stname": "ImFont"
     }
   ],
+  "ImGuiDockFamily_ImGuiDockFamily": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGuiDockFamily_ImGuiDockFamily",
+      "comment": "",
+      "constructor": true,
+      "defaults": [],
+      "funcname": "ImGuiDockFamily",
+      "ov_cimguiname": "ImGuiDockFamily_ImGuiDockFamily",
+      "signature": "()",
+      "stname": "ImGuiDockFamily"
+    },
+    {
+      "args": "(ImGuiID family_id,bool compatible_with_family_zero)",
+      "argsT": [
+        {
+          "name": "family_id",
+          "type": "ImGuiID"
+        },
+        {
+          "name": "compatible_with_family_zero",
+          "type": "bool"
+        }
+      ],
+      "argsoriginal": "(ImGuiID family_id,bool compatible_with_family_zero=true)",
+      "call_args": "(family_id,compatible_with_family_zero)",
+      "cimguiname": "ImGuiDockFamily_ImGuiDockFamily",
+      "comment": "",
+      "constructor": true,
+      "defaults": {
+        "compatible_with_family_zero": "true"
+      },
+      "funcname": "ImGuiDockFamily",
+      "ov_cimguiname": "ImGuiDockFamily_ImGuiDockFamilyID",
+      "signature": "(ImGuiID,bool)",
+      "stname": "ImGuiDockFamily"
+    }
+  ],
+  "ImGuiDockFamily_destroy": [
+    {
+      "args": "(ImGuiDockFamily* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImGuiDockFamily*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImGuiDockFamily_destroy",
+      "defaults": [],
+      "destructor": true,
+      "ov_cimguiname": "ImGuiDockFamily_destroy",
+      "ret": "void",
+      "signature": "(ImGuiDockFamily*)",
+      "stname": "ImGuiDockFamily"
+    }
+  ],
   "ImGuiIO_AddInputCharacter": [
     {
       "args": "(ImGuiIO* self,ImWchar c)",
@@ -4106,12 +4166,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(int pos,const char* text,const char* text_end=((void *)0))",
+      "argsoriginal": "(int pos,const char* text,const char* text_end=((void*)0))",
       "call_args": "(pos,text,text_end)",
       "cimguiname": "ImGuiInputTextCallbackData_InsertChars",
       "comment": "",
       "defaults": {
-        "text_end": "((void *)0)"
+        "text_end": "((void*)0)"
       },
       "funcname": "InsertChars",
       "ret": "void",
@@ -4406,6 +4466,74 @@
       "stname": "ImGuiPayload"
     }
   ],
+  "ImGuiPlatformIO_ImGuiPlatformIO": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGuiPlatformIO_ImGuiPlatformIO",
+      "comment": "",
+      "constructor": true,
+      "defaults": [],
+      "funcname": "ImGuiPlatformIO",
+      "signature": "()",
+      "stname": "ImGuiPlatformIO"
+    }
+  ],
+  "ImGuiPlatformIO_destroy": [
+    {
+      "args": "(ImGuiPlatformIO* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImGuiPlatformIO*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImGuiPlatformIO_destroy",
+      "defaults": [],
+      "destructor": true,
+      "ov_cimguiname": "ImGuiPlatformIO_destroy",
+      "ret": "void",
+      "signature": "(ImGuiPlatformIO*)",
+      "stname": "ImGuiPlatformIO"
+    }
+  ],
+  "ImGuiPlatformMonitor_ImGuiPlatformMonitor": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGuiPlatformMonitor_ImGuiPlatformMonitor",
+      "comment": "",
+      "constructor": true,
+      "defaults": [],
+      "funcname": "ImGuiPlatformMonitor",
+      "signature": "()",
+      "stname": "ImGuiPlatformMonitor"
+    }
+  ],
+  "ImGuiPlatformMonitor_destroy": [
+    {
+      "args": "(ImGuiPlatformMonitor* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImGuiPlatformMonitor*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImGuiPlatformMonitor_destroy",
+      "defaults": [],
+      "destructor": true,
+      "ov_cimguiname": "ImGuiPlatformMonitor_destroy",
+      "ret": "void",
+      "signature": "(ImGuiPlatformMonitor*)",
+      "stname": "ImGuiPlatformMonitor"
+    }
+  ],
   "ImGuiStorage_BuildSortByKey": [
     {
       "args": "(ImGuiStorage* self)",
@@ -4667,12 +4795,12 @@
           "type": "void*"
         }
       ],
-      "argsoriginal": "(ImGuiID key,void* default_val=((void *)0))",
+      "argsoriginal": "(ImGuiID key,void* default_val=((void*)0))",
       "call_args": "(key,default_val)",
       "cimguiname": "ImGuiStorage_GetVoidPtrRef",
       "comment": "",
       "defaults": {
-        "default_val": "((void *)0)"
+        "default_val": "((void*)0)"
       },
       "funcname": "GetVoidPtrRef",
       "ret": "void**",
@@ -5240,12 +5368,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(const char* text,const char* text_end=((void *)0))",
+      "argsoriginal": "(const char* text,const char* text_end=((void*)0))",
       "call_args": "(text,text_end)",
       "cimguiname": "ImGuiTextFilter_PassFilter",
       "comment": "",
       "defaults": {
-        "text_end": "((void *)0)"
+        "text_end": "((void*)0)"
       },
       "funcname": "PassFilter",
       "ret": "bool",
@@ -5270,6 +5398,40 @@
       "ret": "void",
       "signature": "(ImGuiTextFilter*)",
       "stname": "ImGuiTextFilter"
+    }
+  ],
+  "ImGuiViewport_ImGuiViewport": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "ImGuiViewport_ImGuiViewport",
+      "comment": "",
+      "constructor": true,
+      "defaults": [],
+      "funcname": "ImGuiViewport",
+      "signature": "()",
+      "stname": "ImGuiViewport"
+    }
+  ],
+  "ImGuiViewport_destroy": [
+    {
+      "args": "(ImGuiViewport* self)",
+      "argsT": [
+        {
+          "name": "self",
+          "type": "ImGuiViewport*"
+        }
+      ],
+      "call_args": "(self)",
+      "cimguiname": "ImGuiViewport_destroy",
+      "defaults": [],
+      "destructor": true,
+      "ov_cimguiname": "ImGuiViewport_destroy",
+      "ret": "void",
+      "signature": "(ImGuiViewport*)",
+      "stname": "ImGuiViewport"
     }
   ],
   "ImVec2_ImVec2": [
@@ -5714,13 +5876,13 @@
           "type": "ImGuiWindowFlags"
         }
       ],
-      "argsoriginal": "(const char* name,bool* p_open=((void *)0),ImGuiWindowFlags flags=0)",
+      "argsoriginal": "(const char* name,bool* p_open=((void*)0),ImGuiWindowFlags flags=0)",
       "call_args": "(name,p_open,flags)",
       "cimguiname": "igBegin",
       "comment": "",
       "defaults": {
         "flags": "0",
-        "p_open": "((void *)0)"
+        "p_open": "((void*)0)"
       },
       "funcname": "Begin",
       "ret": "bool",
@@ -6007,13 +6169,13 @@
           "type": "int"
         }
       ],
-      "argsoriginal": "(const char* str_id=((void *)0),int mouse_button=1)",
+      "argsoriginal": "(const char* str_id=((void*)0),int mouse_button=1)",
       "call_args": "(str_id,mouse_button)",
       "cimguiname": "igBeginPopupContextItem",
       "comment": "",
       "defaults": {
         "mouse_button": "1",
-        "str_id": "((void *)0)"
+        "str_id": "((void*)0)"
       },
       "funcname": "BeginPopupContextItem",
       "ret": "bool",
@@ -6034,13 +6196,13 @@
           "type": "int"
         }
       ],
-      "argsoriginal": "(const char* str_id=((void *)0),int mouse_button=1)",
+      "argsoriginal": "(const char* str_id=((void*)0),int mouse_button=1)",
       "call_args": "(str_id,mouse_button)",
       "cimguiname": "igBeginPopupContextVoid",
       "comment": "",
       "defaults": {
         "mouse_button": "1",
-        "str_id": "((void *)0)"
+        "str_id": "((void*)0)"
       },
       "funcname": "BeginPopupContextVoid",
       "ret": "bool",
@@ -6065,14 +6227,14 @@
           "type": "bool"
         }
       ],
-      "argsoriginal": "(const char* str_id=((void *)0),int mouse_button=1,bool also_over_items=true)",
+      "argsoriginal": "(const char* str_id=((void*)0),int mouse_button=1,bool also_over_items=true)",
       "call_args": "(str_id,mouse_button,also_over_items)",
       "cimguiname": "igBeginPopupContextWindow",
       "comment": "",
       "defaults": {
         "also_over_items": "true",
         "mouse_button": "1",
-        "str_id": "((void *)0)"
+        "str_id": "((void*)0)"
       },
       "funcname": "BeginPopupContextWindow",
       "ret": "bool",
@@ -6097,17 +6259,74 @@
           "type": "ImGuiWindowFlags"
         }
       ],
-      "argsoriginal": "(const char* name,bool* p_open=((void *)0),ImGuiWindowFlags flags=0)",
+      "argsoriginal": "(const char* name,bool* p_open=((void*)0),ImGuiWindowFlags flags=0)",
       "call_args": "(name,p_open,flags)",
       "cimguiname": "igBeginPopupModal",
       "comment": "",
       "defaults": {
         "flags": "0",
-        "p_open": "((void *)0)"
+        "p_open": "((void*)0)"
       },
       "funcname": "BeginPopupModal",
       "ret": "bool",
       "signature": "(const char*,bool*,ImGuiWindowFlags)",
+      "stname": "ImGui"
+    }
+  ],
+  "igBeginTabBar": [
+    {
+      "args": "(const char* str_id,ImGuiTabBarFlags flags)",
+      "argsT": [
+        {
+          "name": "str_id",
+          "type": "const char*"
+        },
+        {
+          "name": "flags",
+          "type": "ImGuiTabBarFlags"
+        }
+      ],
+      "argsoriginal": "(const char* str_id,ImGuiTabBarFlags flags=0)",
+      "call_args": "(str_id,flags)",
+      "cimguiname": "igBeginTabBar",
+      "comment": "",
+      "defaults": {
+        "flags": "0"
+      },
+      "funcname": "BeginTabBar",
+      "ret": "bool",
+      "signature": "(const char*,ImGuiTabBarFlags)",
+      "stname": "ImGui"
+    }
+  ],
+  "igBeginTabItem": [
+    {
+      "args": "(const char* label,bool* p_open,ImGuiTabItemFlags flags)",
+      "argsT": [
+        {
+          "name": "label",
+          "type": "const char*"
+        },
+        {
+          "name": "p_open",
+          "type": "bool*"
+        },
+        {
+          "name": "flags",
+          "type": "ImGuiTabItemFlags"
+        }
+      ],
+      "argsoriginal": "(const char* label,bool* p_open=((void*)0),ImGuiTabItemFlags flags=0)",
+      "call_args": "(label,p_open,flags)",
+      "cimguiname": "igBeginTabItem",
+      "comment": "",
+      "defaults": {
+        "flags": "0",
+        "p_open": "((void*)0)"
+      },
+      "funcname": "BeginTabItem",
+      "ret": "bool",
+      "signature": "(const char*,bool*,ImGuiTabItemFlags)",
       "stname": "ImGui"
     }
   ],
@@ -6284,13 +6503,13 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* text,const char* text_end=((void *)0),bool hide_text_after_double_hash=false,float wrap_width=-1.0f)",
+      "argsoriginal": "(const char* text,const char* text_end=((void*)0),bool hide_text_after_double_hash=false,float wrap_width=-1.0f)",
       "call_args": "(text,text_end,hide_text_after_double_hash,wrap_width)",
       "cimguiname": "igCalcTextSize",
       "comment": "",
       "defaults": {
         "hide_text_after_double_hash": "false",
-        "text_end": "((void *)0)",
+        "text_end": "((void*)0)",
         "wrap_width": "-1.0f"
       },
       "funcname": "CalcTextSize",
@@ -6322,13 +6541,13 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* text,const char* text_end=((void *)0),bool hide_text_after_double_hash=false,float wrap_width=-1.0f)",
+      "argsoriginal": "(const char* text,const char* text_end=((void*)0),bool hide_text_after_double_hash=false,float wrap_width=-1.0f)",
       "call_args": "(text,text_end,hide_text_after_double_hash,wrap_width)",
       "cimguiname": "igCalcTextSize",
       "comment": "",
       "defaults": {
         "hide_text_after_double_hash": "false",
-        "text_end": "((void *)0)",
+        "text_end": "((void*)0)",
         "wrap_width": "-1.0f"
       },
       "funcname": "CalcTextSize",
@@ -6358,13 +6577,13 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* text,const char* text_end=((void *)0),bool hide_text_after_double_hash=false,float wrap_width=-1.0f)",
+      "argsoriginal": "(const char* text,const char* text_end=((void*)0),bool hide_text_after_double_hash=false,float wrap_width=-1.0f)",
       "call_args": "(text,text_end,hide_text_after_double_hash,wrap_width)",
       "cimguiname": "igCalcTextSize",
       "comment": "",
       "defaults": {
         "hide_text_after_double_hash": "false",
-        "text_end": "((void *)0)",
+        "text_end": "((void*)0)",
         "wrap_width": "-1.0f"
       },
       "funcname": "CalcTextSize",
@@ -6378,19 +6597,19 @@
   ],
   "igCaptureKeyboardFromApp": [
     {
-      "args": "(bool capture)",
+      "args": "(bool want_capture_keyboard_value)",
       "argsT": [
         {
-          "name": "capture",
+          "name": "want_capture_keyboard_value",
           "type": "bool"
         }
       ],
-      "argsoriginal": "(bool capture=true)",
-      "call_args": "(capture)",
+      "argsoriginal": "(bool want_capture_keyboard_value=true)",
+      "call_args": "(want_capture_keyboard_value)",
       "cimguiname": "igCaptureKeyboardFromApp",
       "comment": "",
       "defaults": {
-        "capture": "true"
+        "want_capture_keyboard_value": "true"
       },
       "funcname": "CaptureKeyboardFromApp",
       "ret": "void",
@@ -6400,19 +6619,19 @@
   ],
   "igCaptureMouseFromApp": [
     {
-      "args": "(bool capture)",
+      "args": "(bool want_capture_mouse_value)",
       "argsT": [
         {
-          "name": "capture",
+          "name": "want_capture_mouse_value",
           "type": "bool"
         }
       ],
-      "argsoriginal": "(bool capture=true)",
-      "call_args": "(capture)",
+      "argsoriginal": "(bool want_capture_mouse_value=true)",
+      "call_args": "(want_capture_mouse_value)",
       "cimguiname": "igCaptureMouseFromApp",
       "comment": "",
       "defaults": {
-        "capture": "true"
+        "want_capture_mouse_value": "true"
       },
       "funcname": "CaptureMouseFromApp",
       "ret": "void",
@@ -6856,13 +7075,13 @@
           "type": "const float*"
         }
       ],
-      "argsoriginal": "(const char* label,float col[4],ImGuiColorEditFlags flags=0,const float* ref_col=((void *)0))",
+      "argsoriginal": "(const char* label,float col[4],ImGuiColorEditFlags flags=0,const float* ref_col=((void*)0))",
       "call_args": "(label,col,flags,ref_col)",
       "cimguiname": "igColorPicker4",
       "comment": "",
       "defaults": {
         "flags": "0",
-        "ref_col": "((void *)0)"
+        "ref_col": "((void*)0)"
       },
       "funcname": "ColorPicker4",
       "ret": "bool",
@@ -6887,14 +7106,14 @@
           "type": "bool"
         }
       ],
-      "argsoriginal": "(int count=1,const char* id=((void *)0),bool border=true)",
+      "argsoriginal": "(int count=1,const char* id=((void*)0),bool border=true)",
       "call_args": "(count,id,border)",
       "cimguiname": "igColumns",
       "comment": "",
       "defaults": {
         "border": "true",
         "count": "1",
-        "id": "((void *)0)"
+        "id": "((void*)0)"
       },
       "funcname": "Columns",
       "ret": "void",
@@ -7026,12 +7245,12 @@
           "type": "ImFontAtlas*"
         }
       ],
-      "argsoriginal": "(ImFontAtlas* shared_font_atlas=((void *)0))",
+      "argsoriginal": "(ImFontAtlas* shared_font_atlas=((void*)0))",
       "call_args": "(shared_font_atlas)",
       "cimguiname": "igCreateContext",
       "comment": "",
       "defaults": {
-        "shared_font_atlas": "((void *)0)"
+        "shared_font_atlas": "((void*)0)"
       },
       "funcname": "CreateContext",
       "ret": "ImGuiContext*",
@@ -7088,16 +7307,99 @@
           "type": "ImGuiContext*"
         }
       ],
-      "argsoriginal": "(ImGuiContext* ctx=((void *)0))",
+      "argsoriginal": "(ImGuiContext* ctx=((void*)0))",
       "call_args": "(ctx)",
       "cimguiname": "igDestroyContext",
       "comment": "",
       "defaults": {
-        "ctx": "((void *)0)"
+        "ctx": "((void*)0)"
       },
       "funcname": "DestroyContext",
       "ret": "void",
       "signature": "(ImGuiContext*)",
+      "stname": "ImGui"
+    }
+  ],
+  "igDestroyPlatformWindows": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igDestroyPlatformWindows",
+      "comment": "",
+      "defaults": [],
+      "funcname": "DestroyPlatformWindows",
+      "ret": "void",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
+  "igDockSpace": [
+    {
+      "args": "(ImGuiID id,const ImVec2 size,ImGuiDockNodeFlags flags,const ImGuiDockFamily* dock_family)",
+      "argsT": [
+        {
+          "name": "id",
+          "type": "ImGuiID"
+        },
+        {
+          "name": "size",
+          "type": "const ImVec2"
+        },
+        {
+          "name": "flags",
+          "type": "ImGuiDockNodeFlags"
+        },
+        {
+          "name": "dock_family",
+          "type": "const ImGuiDockFamily*"
+        }
+      ],
+      "argsoriginal": "(ImGuiID id,const ImVec2& size=ImVec2(0,0),ImGuiDockNodeFlags flags=0,const ImGuiDockFamily* dock_family=((void*)0))",
+      "call_args": "(id,size,flags,dock_family)",
+      "cimguiname": "igDockSpace",
+      "comment": "",
+      "defaults": {
+        "dock_family": "((void*)0)",
+        "flags": "0",
+        "size": "ImVec2(0,0)"
+      },
+      "funcname": "DockSpace",
+      "ret": "void",
+      "signature": "(ImGuiID,const ImVec2,ImGuiDockNodeFlags,const ImGuiDockFamily*)",
+      "stname": "ImGui"
+    }
+  ],
+  "igDockSpaceOverViewport": [
+    {
+      "args": "(ImGuiViewport* viewport,ImGuiDockNodeFlags dockspace_flags,const ImGuiDockFamily* dock_family)",
+      "argsT": [
+        {
+          "name": "viewport",
+          "type": "ImGuiViewport*"
+        },
+        {
+          "name": "dockspace_flags",
+          "type": "ImGuiDockNodeFlags"
+        },
+        {
+          "name": "dock_family",
+          "type": "const ImGuiDockFamily*"
+        }
+      ],
+      "argsoriginal": "(ImGuiViewport* viewport=((void*)0),ImGuiDockNodeFlags dockspace_flags=0,const ImGuiDockFamily* dock_family=((void*)0))",
+      "call_args": "(viewport,dockspace_flags,dock_family)",
+      "cimguiname": "igDockSpaceOverViewport",
+      "comment": "",
+      "defaults": {
+        "dock_family": "((void*)0)",
+        "dockspace_flags": "0",
+        "viewport": "((void*)0)"
+      },
+      "funcname": "DockSpaceOverViewport",
+      "ret": "ImGuiID",
+      "signature": "(ImGuiViewport*,ImGuiDockNodeFlags,const ImGuiDockFamily*)",
       "stname": "ImGui"
     }
   ],
@@ -7342,13 +7644,13 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* label,float* v_current_min,float* v_current_max,float v_speed=1.0f,float v_min=0.0f,float v_max=0.0f,const char* format=\"%.3f\",const char* format_max=((void *)0),float power=1.0f)",
+      "argsoriginal": "(const char* label,float* v_current_min,float* v_current_max,float v_speed=1.0f,float v_min=0.0f,float v_max=0.0f,const char* format=\"%.3f\",const char* format_max=((void*)0),float power=1.0f)",
       "call_args": "(label,v_current_min,v_current_max,v_speed,v_min,v_max,format,format_max,power)",
       "cimguiname": "igDragFloatRange2",
       "comment": "",
       "defaults": {
         "format": "\"%.3f\"",
-        "format_max": "((void *)0)",
+        "format_max": "((void*)0)",
         "power": "1.0f",
         "v_max": "0.0f",
         "v_min": "0.0f",
@@ -7577,13 +7879,13 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(const char* label,int* v_current_min,int* v_current_max,float v_speed=1.0f,int v_min=0,int v_max=0,const char* format=\"%d\",const char* format_max=((void *)0))",
+      "argsoriginal": "(const char* label,int* v_current_min,int* v_current_max,float v_speed=1.0f,int v_min=0,int v_max=0,const char* format=\"%d\",const char* format_max=((void*)0))",
       "call_args": "(label,v_current_min,v_current_max,v_speed,v_min,v_max,format,format_max)",
       "cimguiname": "igDragIntRange2",
       "comment": "",
       "defaults": {
         "format": "\"%d\"",
-        "format_max": "((void *)0)",
+        "format_max": "((void*)0)",
         "v_max": "0",
         "v_min": "0",
         "v_speed": "1.0f"
@@ -7631,15 +7933,15 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,float v_speed,const void* v_min=((void *)0),const void* v_max=((void *)0),const char* format=((void *)0),float power=1.0f)",
+      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,float v_speed,const void* v_min=((void*)0),const void* v_max=((void*)0),const char* format=((void*)0),float power=1.0f)",
       "call_args": "(label,data_type,v,v_speed,v_min,v_max,format,power)",
       "cimguiname": "igDragScalar",
       "comment": "",
       "defaults": {
-        "format": "((void *)0)",
+        "format": "((void*)0)",
         "power": "1.0f",
-        "v_max": "((void *)0)",
-        "v_min": "((void *)0)"
+        "v_max": "((void*)0)",
+        "v_min": "((void*)0)"
       },
       "funcname": "DragScalar",
       "ret": "bool",
@@ -7688,15 +7990,15 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,int components,float v_speed,const void* v_min=((void *)0),const void* v_max=((void *)0),const char* format=((void *)0),float power=1.0f)",
+      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,int components,float v_speed,const void* v_min=((void*)0),const void* v_max=((void*)0),const char* format=((void*)0),float power=1.0f)",
       "call_args": "(label,data_type,v,components,v_speed,v_min,v_max,format,power)",
       "cimguiname": "igDragScalarN",
       "comment": "",
       "defaults": {
-        "format": "((void *)0)",
+        "format": "((void*)0)",
         "power": "1.0f",
-        "v_max": "((void *)0)",
-        "v_min": "((void *)0)"
+        "v_max": "((void*)0)",
+        "v_min": "((void*)0)"
       },
       "funcname": "DragScalarN",
       "ret": "bool",
@@ -7904,6 +8206,36 @@
       "stname": "ImGui"
     }
   ],
+  "igEndTabBar": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igEndTabBar",
+      "comment": "",
+      "defaults": [],
+      "funcname": "EndTabBar",
+      "ret": "void",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
+  "igEndTabItem": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igEndTabItem",
+      "comment": "",
+      "defaults": [],
+      "funcname": "EndTabItem",
+      "ret": "void",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
   "igEndTooltip": [
     {
       "args": "()",
@@ -7916,6 +8248,26 @@
       "funcname": "EndTooltip",
       "ret": "void",
       "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
+  "igFindViewportByPlatformHandle": [
+    {
+      "args": "(void* platform_handle)",
+      "argsT": [
+        {
+          "name": "platform_handle",
+          "type": "void*"
+        }
+      ],
+      "argsoriginal": "(void* platform_handle)",
+      "call_args": "(platform_handle)",
+      "cimguiname": "igFindViewportByPlatformHandle",
+      "comment": "",
+      "defaults": [],
+      "funcname": "FindViewportByPlatformHandle",
+      "ret": "ImGuiViewport*",
+      "signature": "(void*)",
       "stname": "ImGui"
     }
   ],
@@ -8839,6 +9191,21 @@
       "stname": "ImGui"
     }
   ],
+  "igGetMainViewport": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igGetMainViewport",
+      "comment": "",
+      "defaults": [],
+      "funcname": "GetMainViewport",
+      "ret": "ImGuiViewport*",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
   "igGetMouseCursor": [
     {
       "args": "()",
@@ -9052,7 +9419,43 @@
       "comment": "",
       "defaults": [],
       "funcname": "GetOverlayDrawList",
+      "ov_cimguiname": "igGetOverlayDrawList",
       "ret": "ImDrawList*",
+      "signature": "()",
+      "stname": "ImGui"
+    },
+    {
+      "args": "(ImGuiViewport* viewport)",
+      "argsT": [
+        {
+          "name": "viewport",
+          "type": "ImGuiViewport*"
+        }
+      ],
+      "argsoriginal": "(ImGuiViewport* viewport)",
+      "call_args": "(viewport)",
+      "cimguiname": "igGetOverlayDrawList",
+      "comment": "",
+      "defaults": [],
+      "funcname": "GetOverlayDrawList",
+      "ov_cimguiname": "igGetOverlayDrawListViewportPtr",
+      "ret": "ImDrawList*",
+      "signature": "(ImGuiViewport*)",
+      "stname": "ImGui"
+    }
+  ],
+  "igGetPlatformIO": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igGetPlatformIO",
+      "comment": "",
+      "defaults": [],
+      "funcname": "GetPlatformIO",
+      "ret": "ImGuiPlatformIO*",
+      "retref": "&",
       "signature": "()",
       "stname": "ImGui"
     }
@@ -9381,6 +9784,36 @@
       "stname": "ImGui"
     }
   ],
+  "igGetWindowDockId": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igGetWindowDockId",
+      "comment": "",
+      "defaults": [],
+      "funcname": "GetWindowDockId",
+      "ret": "ImGuiID",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
+  "igGetWindowDpiScale": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igGetWindowDpiScale",
+      "comment": "",
+      "defaults": [],
+      "funcname": "GetWindowDpiScale",
+      "ret": "float",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
   "igGetWindowDrawList": [
     {
       "args": "()",
@@ -9509,6 +9942,21 @@
       "ov_cimguiname": "igGetWindowSize_nonUDT2",
       "ret": "ImVec2_Simple",
       "retorig": "ImVec2",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
+  "igGetWindowViewport": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igGetWindowViewport",
+      "comment": "",
+      "defaults": [],
+      "funcname": "GetWindowViewport",
+      "ret": "ImGuiViewport*",
       "signature": "()",
       "stname": "ImGui"
     }
@@ -10003,15 +10451,15 @@
           "type": "ImGuiInputTextFlags"
         }
       ],
-      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,const void* step=((void *)0),const void* step_fast=((void *)0),const char* format=((void *)0),ImGuiInputTextFlags extra_flags=0)",
+      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,const void* step=((void*)0),const void* step_fast=((void*)0),const char* format=((void*)0),ImGuiInputTextFlags extra_flags=0)",
       "call_args": "(label,data_type,v,step,step_fast,format,extra_flags)",
       "cimguiname": "igInputScalar",
       "comment": "",
       "defaults": {
         "extra_flags": "0",
-        "format": "((void *)0)",
-        "step": "((void *)0)",
-        "step_fast": "((void *)0)"
+        "format": "((void*)0)",
+        "step": "((void*)0)",
+        "step_fast": "((void*)0)"
       },
       "funcname": "InputScalar",
       "ret": "bool",
@@ -10056,15 +10504,15 @@
           "type": "ImGuiInputTextFlags"
         }
       ],
-      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,int components,const void* step=((void *)0),const void* step_fast=((void *)0),const char* format=((void *)0),ImGuiInputTextFlags extra_flags=0)",
+      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,int components,const void* step=((void*)0),const void* step_fast=((void*)0),const char* format=((void*)0),ImGuiInputTextFlags extra_flags=0)",
       "call_args": "(label,data_type,v,components,step,step_fast,format,extra_flags)",
       "cimguiname": "igInputScalarN",
       "comment": "",
       "defaults": {
         "extra_flags": "0",
-        "format": "((void *)0)",
-        "step": "((void *)0)",
-        "step_fast": "((void *)0)"
+        "format": "((void*)0)",
+        "step": "((void*)0)",
+        "step_fast": "((void*)0)"
       },
       "funcname": "InputScalarN",
       "ret": "bool",
@@ -10101,14 +10549,14 @@
           "type": "void*"
         }
       ],
-      "argsoriginal": "(const char* label,char* buf,size_t buf_size,ImGuiInputTextFlags flags=0,ImGuiInputTextCallback callback=((void *)0),void* user_data=((void *)0))",
+      "argsoriginal": "(const char* label,char* buf,size_t buf_size,ImGuiInputTextFlags flags=0,ImGuiInputTextCallback callback=((void*)0),void* user_data=((void*)0))",
       "call_args": "(label,buf,buf_size,flags,callback,user_data)",
       "cimguiname": "igInputText",
       "comment": "",
       "defaults": {
-        "callback": "((void *)0)",
+        "callback": "((void*)0)",
         "flags": "0",
-        "user_data": "((void *)0)"
+        "user_data": "((void*)0)"
       },
       "funcname": "InputText",
       "ret": "bool",
@@ -10149,15 +10597,15 @@
           "type": "void*"
         }
       ],
-      "argsoriginal": "(const char* label,char* buf,size_t buf_size,const ImVec2& size=ImVec2(0,0),ImGuiInputTextFlags flags=0,ImGuiInputTextCallback callback=((void *)0),void* user_data=((void *)0))",
+      "argsoriginal": "(const char* label,char* buf,size_t buf_size,const ImVec2& size=ImVec2(0,0),ImGuiInputTextFlags flags=0,ImGuiInputTextCallback callback=((void*)0),void* user_data=((void*)0))",
       "call_args": "(label,buf,buf_size,size,flags,callback,user_data)",
       "cimguiname": "igInputTextMultiline",
       "comment": "",
       "defaults": {
-        "callback": "((void *)0)",
+        "callback": "((void*)0)",
         "flags": "0",
         "size": "ImVec2(0,0)",
-        "user_data": "((void *)0)"
+        "user_data": "((void*)0)"
       },
       "funcname": "InputTextMultiline",
       "ret": "bool",
@@ -10581,12 +11029,12 @@
           "type": "const ImVec2*"
         }
       ],
-      "argsoriginal": "(const ImVec2* mouse_pos=((void *)0))",
+      "argsoriginal": "(const ImVec2* mouse_pos=((void*)0))",
       "call_args": "(mouse_pos)",
       "cimguiname": "igIsMousePosValid",
       "comment": "",
       "defaults": {
-        "mouse_pos": "((void *)0)"
+        "mouse_pos": "((void*)0)"
       },
       "funcname": "IsMousePosValid",
       "ret": "bool",
@@ -10703,6 +11151,21 @@
       "comment": "",
       "defaults": [],
       "funcname": "IsWindowCollapsed",
+      "ret": "bool",
+      "signature": "()",
+      "stname": "ImGui"
+    }
+  ],
+  "igIsWindowDocked": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igIsWindowDocked",
+      "comment": "",
+      "defaults": [],
+      "funcname": "IsWindowDocked",
       "ret": "bool",
       "signature": "()",
       "stname": "ImGui"
@@ -11099,12 +11562,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(int max_depth=-1,const char* filename=((void *)0))",
+      "argsoriginal": "(int max_depth=-1,const char* filename=((void*)0))",
       "call_args": "(max_depth,filename)",
       "cimguiname": "igLogToFile",
       "comment": "",
       "defaults": {
-        "filename": "((void *)0)",
+        "filename": "((void*)0)",
         "max_depth": "-1"
       },
       "funcname": "LogToFile",
@@ -11196,14 +11659,14 @@
           "type": "bool"
         }
       ],
-      "argsoriginal": "(const char* label,const char* shortcut=((void *)0),bool selected=false,bool enabled=true)",
+      "argsoriginal": "(const char* label,const char* shortcut=((void*)0),bool selected=false,bool enabled=true)",
       "call_args": "(label,shortcut,selected,enabled)",
       "cimguiname": "igMenuItem",
       "comment": "",
       "defaults": {
         "enabled": "true",
         "selected": "false",
-        "shortcut": "((void *)0)"
+        "shortcut": "((void*)0)"
       },
       "funcname": "MenuItem",
       "ov_cimguiname": "igMenuItemBool",
@@ -11323,13 +11786,13 @@
           "type": "int"
         }
       ],
-      "argsoriginal": "(const char* str_id=((void *)0),int mouse_button=1)",
+      "argsoriginal": "(const char* str_id=((void*)0),int mouse_button=1)",
       "call_args": "(str_id,mouse_button)",
       "cimguiname": "igOpenPopupOnItemClick",
       "comment": "",
       "defaults": {
         "mouse_button": "1",
-        "str_id": "((void *)0)"
+        "str_id": "((void*)0)"
       },
       "funcname": "OpenPopupOnItemClick",
       "ret": "bool",
@@ -11378,13 +11841,13 @@
           "type": "int"
         }
       ],
-      "argsoriginal": "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void *)0),float scale_min=3.40282346638528859812e+38F,float scale_max=3.40282346638528859812e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))",
+      "argsoriginal": "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))",
       "call_args": "(label,values,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size,stride)",
       "cimguiname": "igPlotHistogram",
       "comment": "",
       "defaults": {
         "graph_size": "ImVec2(0,0)",
-        "overlay_text": "((void *)0)",
+        "overlay_text": "((void*)0)",
         "scale_max": "FLT_MAX",
         "scale_min": "FLT_MAX",
         "stride": "sizeof(float)",
@@ -11438,13 +11901,13 @@
           "type": "ImVec2"
         }
       ],
-      "argsoriginal": "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void *)0),float scale_min=3.40282346638528859812e+38F,float scale_max=3.40282346638528859812e+38F,ImVec2 graph_size=ImVec2(0,0))",
+      "argsoriginal": "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0))",
       "call_args": "(label,values_getter,data,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size)",
       "cimguiname": "igPlotHistogram",
       "comment": "",
       "defaults": {
         "graph_size": "ImVec2(0,0)",
-        "overlay_text": "((void *)0)",
+        "overlay_text": "((void*)0)",
         "scale_max": "FLT_MAX",
         "scale_min": "FLT_MAX",
         "values_offset": "0"
@@ -11497,13 +11960,13 @@
           "type": "int"
         }
       ],
-      "argsoriginal": "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void *)0),float scale_min=3.40282346638528859812e+38F,float scale_max=3.40282346638528859812e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))",
+      "argsoriginal": "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))",
       "call_args": "(label,values,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size,stride)",
       "cimguiname": "igPlotLines",
       "comment": "",
       "defaults": {
         "graph_size": "ImVec2(0,0)",
-        "overlay_text": "((void *)0)",
+        "overlay_text": "((void*)0)",
         "scale_max": "FLT_MAX",
         "scale_min": "FLT_MAX",
         "stride": "sizeof(float)",
@@ -11557,13 +12020,13 @@
           "type": "ImVec2"
         }
       ],
-      "argsoriginal": "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void *)0),float scale_min=3.40282346638528859812e+38F,float scale_max=3.40282346638528859812e+38F,ImVec2 graph_size=ImVec2(0,0))",
+      "argsoriginal": "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0))",
       "call_args": "(label,values_getter,data,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size)",
       "cimguiname": "igPlotLines",
       "comment": "",
       "defaults": {
         "graph_size": "ImVec2(0,0)",
-        "overlay_text": "((void *)0)",
+        "overlay_text": "((void*)0)",
         "scale_max": "FLT_MAX",
         "scale_min": "FLT_MAX",
         "values_offset": "0"
@@ -11741,12 +12204,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(float fraction,const ImVec2& size_arg=ImVec2(-1,0),const char* overlay=((void *)0))",
+      "argsoriginal": "(float fraction,const ImVec2& size_arg=ImVec2(-1,0),const char* overlay=((void*)0))",
       "call_args": "(fraction,size_arg,overlay)",
       "cimguiname": "igProgressBar",
       "comment": "",
       "defaults": {
-        "overlay": "((void *)0)",
+        "overlay": "((void*)0)",
         "size_arg": "ImVec2(-1,0)"
       },
       "funcname": "ProgressBar",
@@ -12043,19 +12506,19 @@
   ],
   "igPushTextWrapPos": [
     {
-      "args": "(float wrap_pos_x)",
+      "args": "(float wrap_local_pos_x)",
       "argsT": [
         {
-          "name": "wrap_pos_x",
+          "name": "wrap_local_pos_x",
           "type": "float"
         }
       ],
-      "argsoriginal": "(float wrap_pos_x=0.0f)",
-      "call_args": "(wrap_pos_x)",
+      "argsoriginal": "(float wrap_local_pos_x=0.0f)",
+      "call_args": "(wrap_local_pos_x)",
       "cimguiname": "igPushTextWrapPos",
       "comment": "",
       "defaults": {
-        "wrap_pos_x": "0.0f"
+        "wrap_local_pos_x": "0.0f"
       },
       "funcname": "PushTextWrapPos",
       "ret": "void",
@@ -12130,6 +12593,33 @@
       "stname": "ImGui"
     }
   ],
+  "igRenderPlatformWindowsDefault": [
+    {
+      "args": "(void* platform_arg,void* renderer_arg)",
+      "argsT": [
+        {
+          "name": "platform_arg",
+          "type": "void*"
+        },
+        {
+          "name": "renderer_arg",
+          "type": "void*"
+        }
+      ],
+      "argsoriginal": "(void* platform_arg=((void*)0),void* renderer_arg=((void*)0))",
+      "call_args": "(platform_arg,renderer_arg)",
+      "cimguiname": "igRenderPlatformWindowsDefault",
+      "comment": "",
+      "defaults": {
+        "platform_arg": "((void*)0)",
+        "renderer_arg": "((void*)0)"
+      },
+      "funcname": "RenderPlatformWindowsDefault",
+      "ret": "void",
+      "signature": "(void*,void*)",
+      "stname": "ImGui"
+    }
+  ],
   "igResetMouseDragDelta": [
     {
       "args": "(int button)",
@@ -12154,10 +12644,10 @@
   ],
   "igSameLine": [
     {
-      "args": "(float pos_x,float spacing_w)",
+      "args": "(float local_pos_x,float spacing_w)",
       "argsT": [
         {
-          "name": "pos_x",
+          "name": "local_pos_x",
           "type": "float"
         },
         {
@@ -12165,12 +12655,12 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(float pos_x=0.0f,float spacing_w=-1.0f)",
-      "call_args": "(pos_x,spacing_w)",
+      "argsoriginal": "(float local_pos_x=0.0f,float spacing_w=-1.0f)",
+      "call_args": "(local_pos_x,spacing_w)",
       "cimguiname": "igSameLine",
       "comment": "",
       "defaults": {
-        "pos_x": "0.0f",
+        "local_pos_x": "0.0f",
         "spacing_w": "-1.0f"
       },
       "funcname": "SameLine",
@@ -12208,12 +12698,12 @@
           "type": "size_t*"
         }
       ],
-      "argsoriginal": "(size_t* out_ini_size=((void *)0))",
+      "argsoriginal": "(size_t* out_ini_size=((void*)0))",
       "call_args": "(out_ini_size)",
       "cimguiname": "igSaveIniSettingsToMemory",
       "comment": "",
       "defaults": {
-        "out_ini_size": "((void *)0)"
+        "out_ini_size": "((void*)0)"
       },
       "funcname": "SaveIniSettingsToMemory",
       "ret": "const char*",
@@ -12328,12 +12818,12 @@
           "type": "void*"
         }
       ],
-      "argsoriginal": "(void*(*alloc_func)(size_t sz,void* user_data),void(*free_func)(void* ptr,void* user_data),void* user_data=((void *)0))",
+      "argsoriginal": "(void*(*alloc_func)(size_t sz,void* user_data),void(*free_func)(void* ptr,void* user_data),void* user_data=((void*)0))",
       "call_args": "(alloc_func,free_func,user_data)",
       "cimguiname": "igSetAllocatorFunctions",
       "comment": "",
       "defaults": {
-        "user_data": "((void *)0)"
+        "user_data": "((void*)0)"
       },
       "funcname": "SetAllocatorFunctions",
       "ret": "void",
@@ -12471,15 +12961,15 @@
   ],
   "igSetCursorPosX": [
     {
-      "args": "(float x)",
+      "args": "(float local_x)",
       "argsT": [
         {
-          "name": "x",
+          "name": "local_x",
           "type": "float"
         }
       ],
-      "argsoriginal": "(float x)",
-      "call_args": "(x)",
+      "argsoriginal": "(float local_x)",
+      "call_args": "(local_x)",
       "cimguiname": "igSetCursorPosX",
       "comment": "",
       "defaults": [],
@@ -12491,15 +12981,15 @@
   ],
   "igSetCursorPosY": [
     {
-      "args": "(float y)",
+      "args": "(float local_y)",
       "argsT": [
         {
-          "name": "y",
+          "name": "local_y",
           "type": "float"
         }
       ],
-      "argsoriginal": "(float y)",
-      "call_args": "(y)",
+      "argsoriginal": "(float local_y)",
+      "call_args": "(local_y)",
       "cimguiname": "igSetCursorPosY",
       "comment": "",
       "defaults": [],
@@ -12511,15 +13001,15 @@
   ],
   "igSetCursorScreenPos": [
     {
-      "args": "(const ImVec2 screen_pos)",
+      "args": "(const ImVec2 pos)",
       "argsT": [
         {
-          "name": "screen_pos",
+          "name": "pos",
           "type": "const ImVec2"
         }
       ],
-      "argsoriginal": "(const ImVec2& screen_pos)",
-      "call_args": "(screen_pos)",
+      "argsoriginal": "(const ImVec2& pos)",
+      "call_args": "(pos)",
       "cimguiname": "igSetCursorScreenPos",
       "comment": "",
       "defaults": [],
@@ -12727,6 +13217,52 @@
       "stname": "ImGui"
     }
   ],
+  "igSetNextWindowDockFamily": [
+    {
+      "args": "(const ImGuiDockFamily* dock_family)",
+      "argsT": [
+        {
+          "name": "dock_family",
+          "type": "const ImGuiDockFamily*"
+        }
+      ],
+      "argsoriginal": "(const ImGuiDockFamily* dock_family)",
+      "call_args": "(dock_family)",
+      "cimguiname": "igSetNextWindowDockFamily",
+      "comment": "",
+      "defaults": [],
+      "funcname": "SetNextWindowDockFamily",
+      "ret": "void",
+      "signature": "(const ImGuiDockFamily*)",
+      "stname": "ImGui"
+    }
+  ],
+  "igSetNextWindowDockId": [
+    {
+      "args": "(ImGuiID dock_id,ImGuiCond cond)",
+      "argsT": [
+        {
+          "name": "dock_id",
+          "type": "ImGuiID"
+        },
+        {
+          "name": "cond",
+          "type": "ImGuiCond"
+        }
+      ],
+      "argsoriginal": "(ImGuiID dock_id,ImGuiCond cond=0)",
+      "call_args": "(dock_id,cond)",
+      "cimguiname": "igSetNextWindowDockId",
+      "comment": "",
+      "defaults": {
+        "cond": "0"
+      },
+      "funcname": "SetNextWindowDockId",
+      "ret": "void",
+      "signature": "(ImGuiID,ImGuiCond)",
+      "stname": "ImGui"
+    }
+  ],
   "igSetNextWindowFocus": [
     {
       "args": "()",
@@ -12820,13 +13356,13 @@
           "type": "void*"
         }
       ],
-      "argsoriginal": "(const ImVec2& size_min,const ImVec2& size_max,ImGuiSizeCallback custom_callback=((void *)0),void* custom_callback_data=((void *)0))",
+      "argsoriginal": "(const ImVec2& size_min,const ImVec2& size_max,ImGuiSizeCallback custom_callback=((void*)0),void* custom_callback_data=((void*)0))",
       "call_args": "(size_min,size_max,custom_callback,custom_callback_data)",
       "cimguiname": "igSetNextWindowSizeConstraints",
       "comment": "",
       "defaults": {
-        "custom_callback": "((void *)0)",
-        "custom_callback_data": "((void *)0)"
+        "custom_callback": "((void*)0)",
+        "custom_callback_data": "((void*)0)"
       },
       "funcname": "SetNextWindowSizeConstraints",
       "ret": "void",
@@ -12834,12 +13370,32 @@
       "stname": "ImGui"
     }
   ],
-  "igSetScrollFromPosY": [
+  "igSetNextWindowViewport": [
     {
-      "args": "(float pos_y,float center_y_ratio)",
+      "args": "(ImGuiID viewport_id)",
       "argsT": [
         {
-          "name": "pos_y",
+          "name": "viewport_id",
+          "type": "ImGuiID"
+        }
+      ],
+      "argsoriginal": "(ImGuiID viewport_id)",
+      "call_args": "(viewport_id)",
+      "cimguiname": "igSetNextWindowViewport",
+      "comment": "",
+      "defaults": [],
+      "funcname": "SetNextWindowViewport",
+      "ret": "void",
+      "signature": "(ImGuiID)",
+      "stname": "ImGui"
+    }
+  ],
+  "igSetScrollFromPosY": [
+    {
+      "args": "(float local_y,float center_y_ratio)",
+      "argsT": [
+        {
+          "name": "local_y",
           "type": "float"
         },
         {
@@ -12847,8 +13403,8 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(float pos_y,float center_y_ratio=0.5f)",
-      "call_args": "(pos_y,center_y_ratio)",
+      "argsoriginal": "(float local_y,float center_y_ratio=0.5f)",
+      "call_args": "(local_y,center_y_ratio)",
       "cimguiname": "igSetScrollFromPosY",
       "comment": "",
       "defaults": {
@@ -12939,6 +13495,26 @@
       "funcname": "SetStateStorage",
       "ret": "void",
       "signature": "(ImGuiStorage*)",
+      "stname": "ImGui"
+    }
+  ],
+  "igSetTabItemClosed": [
+    {
+      "args": "(const char* tab_or_docked_window_label)",
+      "argsT": [
+        {
+          "name": "tab_or_docked_window_label",
+          "type": "const char*"
+        }
+      ],
+      "argsoriginal": "(const char* tab_or_docked_window_label)",
+      "call_args": "(tab_or_docked_window_label)",
+      "cimguiname": "igSetTabItemClosed",
+      "comment": "",
+      "defaults": [],
+      "funcname": "SetTabItemClosed",
+      "ret": "void",
+      "signature": "(const char*)",
       "stname": "ImGui"
     }
   ],
@@ -13223,12 +13799,12 @@
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(bool* p_open=((void *)0))",
+      "argsoriginal": "(bool* p_open=((void*)0))",
       "call_args": "(p_open)",
       "cimguiname": "igShowAboutWindow",
       "comment": "",
       "defaults": {
-        "p_open": "((void *)0)"
+        "p_open": "((void*)0)"
       },
       "funcname": "ShowAboutWindow",
       "ret": "void",
@@ -13245,12 +13821,12 @@
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(bool* p_open=((void *)0))",
+      "argsoriginal": "(bool* p_open=((void*)0))",
       "call_args": "(p_open)",
       "cimguiname": "igShowDemoWindow",
       "comment": "",
       "defaults": {
-        "p_open": "((void *)0)"
+        "p_open": "((void*)0)"
       },
       "funcname": "ShowDemoWindow",
       "ret": "void",
@@ -13287,12 +13863,12 @@
           "type": "bool*"
         }
       ],
-      "argsoriginal": "(bool* p_open=((void *)0))",
+      "argsoriginal": "(bool* p_open=((void*)0))",
       "call_args": "(p_open)",
       "cimguiname": "igShowMetricsWindow",
       "comment": "",
       "defaults": {
-        "p_open": "((void *)0)"
+        "p_open": "((void*)0)"
       },
       "funcname": "ShowMetricsWindow",
       "ret": "void",
@@ -13309,12 +13885,12 @@
           "type": "ImGuiStyle*"
         }
       ],
-      "argsoriginal": "(ImGuiStyle* ref=((void *)0))",
+      "argsoriginal": "(ImGuiStyle* ref=((void*)0))",
       "call_args": "(ref)",
       "cimguiname": "igShowStyleEditor",
       "comment": "",
       "defaults": {
-        "ref": "((void *)0)"
+        "ref": "((void*)0)"
       },
       "funcname": "ShowStyleEditor",
       "ret": "void",
@@ -13754,12 +14330,12 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,const void* v_min,const void* v_max,const char* format=((void *)0),float power=1.0f)",
+      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,const void* v_min,const void* v_max,const char* format=((void*)0),float power=1.0f)",
       "call_args": "(label,data_type,v,v_min,v_max,format,power)",
       "cimguiname": "igSliderScalar",
       "comment": "",
       "defaults": {
-        "format": "((void *)0)",
+        "format": "((void*)0)",
         "power": "1.0f"
       },
       "funcname": "SliderScalar",
@@ -13805,12 +14381,12 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,int components,const void* v_min,const void* v_max,const char* format=((void *)0),float power=1.0f)",
+      "argsoriginal": "(const char* label,ImGuiDataType data_type,void* v,int components,const void* v_min,const void* v_max,const char* format=((void*)0),float power=1.0f)",
       "call_args": "(label,data_type,v,components,v_min,v_max,format,power)",
       "cimguiname": "igSliderScalarN",
       "comment": "",
       "defaults": {
-        "format": "((void *)0)",
+        "format": "((void*)0)",
         "power": "1.0f"
       },
       "funcname": "SliderScalarN",
@@ -13863,12 +14439,12 @@
           "type": "ImGuiStyle*"
         }
       ],
-      "argsoriginal": "(ImGuiStyle* dst=((void *)0))",
+      "argsoriginal": "(ImGuiStyle* dst=((void*)0))",
       "call_args": "(dst)",
       "cimguiname": "igStyleColorsClassic",
       "comment": "",
       "defaults": {
-        "dst": "((void *)0)"
+        "dst": "((void*)0)"
       },
       "funcname": "StyleColorsClassic",
       "ret": "void",
@@ -13885,12 +14461,12 @@
           "type": "ImGuiStyle*"
         }
       ],
-      "argsoriginal": "(ImGuiStyle* dst=((void *)0))",
+      "argsoriginal": "(ImGuiStyle* dst=((void*)0))",
       "call_args": "(dst)",
       "cimguiname": "igStyleColorsDark",
       "comment": "",
       "defaults": {
-        "dst": "((void *)0)"
+        "dst": "((void*)0)"
       },
       "funcname": "StyleColorsDark",
       "ret": "void",
@@ -13907,12 +14483,12 @@
           "type": "ImGuiStyle*"
         }
       ],
-      "argsoriginal": "(ImGuiStyle* dst=((void *)0))",
+      "argsoriginal": "(ImGuiStyle* dst=((void*)0))",
       "call_args": "(dst)",
       "cimguiname": "igStyleColorsLight",
       "comment": "",
       "defaults": {
-        "dst": "((void *)0)"
+        "dst": "((void*)0)"
       },
       "funcname": "StyleColorsLight",
       "ret": "void",
@@ -14064,12 +14640,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(const char* text,const char* text_end=((void *)0))",
+      "argsoriginal": "(const char* text,const char* text_end=((void*)0))",
       "call_args": "(text,text_end)",
       "cimguiname": "igTextUnformatted",
       "comment": "",
       "defaults": {
-        "text_end": "((void *)0)"
+        "text_end": "((void*)0)"
       },
       "funcname": "TextUnformatted",
       "ret": "void",
@@ -14496,12 +15072,12 @@
           "type": "const void*"
         }
       ],
-      "argsoriginal": "(const void* ptr_id=((void *)0))",
+      "argsoriginal": "(const void* ptr_id=((void*)0))",
       "call_args": "(ptr_id)",
       "cimguiname": "igTreePush",
       "comment": "",
       "defaults": {
-        "ptr_id": "((void *)0)"
+        "ptr_id": "((void*)0)"
       },
       "funcname": "TreePush",
       "ov_cimguiname": "igTreePushPtr",
@@ -14529,6 +15105,21 @@
       "funcname": "Unindent",
       "ret": "void",
       "signature": "(float)",
+      "stname": "ImGui"
+    }
+  ],
+  "igUpdatePlatformWindows": [
+    {
+      "args": "()",
+      "argsT": [],
+      "argsoriginal": "()",
+      "call_args": "()",
+      "cimguiname": "igUpdatePlatformWindows",
+      "comment": "",
+      "defaults": [],
+      "funcname": "UpdatePlatformWindows",
+      "ret": "void",
+      "signature": "()",
       "stname": "ImGui"
     }
   ],
@@ -14658,12 +15249,12 @@
           "type": "float"
         }
       ],
-      "argsoriginal": "(const char* label,const ImVec2& size,ImGuiDataType data_type,void* v,const void* v_min,const void* v_max,const char* format=((void *)0),float power=1.0f)",
+      "argsoriginal": "(const char* label,const ImVec2& size,ImGuiDataType data_type,void* v,const void* v_min,const void* v_max,const char* format=((void*)0),float power=1.0f)",
       "call_args": "(label,size,data_type,v,v_min,v_max,format,power)",
       "cimguiname": "igVSliderScalar",
       "comment": "",
       "defaults": {
-        "format": "((void *)0)",
+        "format": "((void*)0)",
         "power": "1.0f"
       },
       "funcname": "VSliderScalar",
@@ -14758,12 +15349,12 @@
           "type": "const char*"
         }
       ],
-      "argsoriginal": "(const char* prefix,float v,const char* float_format=((void *)0))",
+      "argsoriginal": "(const char* prefix,float v,const char* float_format=((void*)0))",
       "call_args": "(prefix,v,float_format)",
       "cimguiname": "igValue",
       "comment": "",
       "defaults": {
-        "float_format": "((void *)0)"
+        "float_format": "((void*)0)"
       },
       "funcname": "Value",
       "ov_cimguiname": "igValueFloat",
