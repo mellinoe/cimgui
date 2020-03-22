@@ -20,7 +20,11 @@ else (IMGUI_STATIC)
     add_library(cimgui SHARED ${IMGUI_SOURCES})
 endif (IMGUI_STATIC)
 
-target_compile_definitions(cimgui PUBLIC IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1)
+target_compile_definitions(cimgui PUBLIC
+    IMGUI_DISABLE_OBSOLETE_FUNCTIONS=1
+    IMGUI_HAS_DOCK=1
+)
+
 if (WIN32)
     target_compile_definitions(cimgui PUBLIC IMGUI_IMPL_API="extern \"C\" __declspec\(dllexport\)")
 else (WIN32)
